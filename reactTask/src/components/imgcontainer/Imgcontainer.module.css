@@ -1,0 +1,29 @@
+.imgbox{
+    width: 100%;
+   position: relative;
+    img{width: 120%;padding-right: 200px; }
+}
+
+.imgText{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    top: 30%;
+    right: 40%;
+    width: 40%;
+    p{
+        opacity: 0.8;
+    }
+    h1{
+        font-size:65px;color: red;
+    }
+    button{
+        padding: 11px 25px;
+        max-width: fit-content;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+}

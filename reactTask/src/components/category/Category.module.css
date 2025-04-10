@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 25px;
+}
+.card{
+    position: relative;
+    max-width: 25%;
+
+}
+.cardtext{
+    position: absolute;
+    top: 42%;
+    right: 28%;
+    
+    h3{
+        padding: 8px 25px;
+        background-color: #ededed;
+    }
+}
