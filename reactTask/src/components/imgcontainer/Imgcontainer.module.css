@@ -4,6 +4,7 @@
     background-image: url('https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg.webp');
    position: relative;
    background-repeat: no-repeat;
+   margin-top: 50px;
     img{width: 100%;
         ;padding-right: 200px; }
 }
