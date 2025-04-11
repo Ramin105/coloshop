@@ -1,7 +1,11 @@
 .imgbox{
     width: 100%;
+    height: 100vh;
+    background-image: url('https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg.webp');
    position: relative;
-    img{width: 120%;padding-right: 200px; }
+   background-repeat: no-repeat;
+    img{width: 100%;
+        ;padding-right: 200px; }
 }
 
 .imgText{

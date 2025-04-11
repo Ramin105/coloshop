@@ -4,11 +4,10 @@ const Card = ({ item }) => {
   return (
     <div className={styles.card}>
       <img src={item.image} alt="a" className={styles.img} />
-      <span>{item.title}</span>
-      {item.price}
-      <span></span>
+      <span className={styles.title}>{item.title}</span>
+      <span className={styles.price}>{item.price}</span>
+      <button>Add to Cart</button>
     </div>
-   
   );
 };
 

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 body{width: 100%;}
+.container{
+    display: flex;
+    justify-content: center;
+}
 .card{
     width: 18%;
     height: 350px;
@@ -16,14 +20,18 @@ justify-content: space-between;
 transition: 1s;
 }
 .img{
-    width: 60%;
+    width: 100%;
 }
 .title{
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 10px;
 }
 
 .price{
     font-size: 18px;
+    color: #FE4C50;
 }
 
 button{

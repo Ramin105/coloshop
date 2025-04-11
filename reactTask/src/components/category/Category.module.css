@@ -13,12 +13,13 @@
 .card{
     position: relative;
     max-width: 25%;
-
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .cardtext{
     position: absolute;
-    top: 42%;
-    right: 28%;
+    
     
     h3{
         padding: 8px 25px;
